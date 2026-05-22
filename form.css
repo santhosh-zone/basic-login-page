@@ -1,0 +1,184 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+body{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,blue,black);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#lead h1{
+    position:relative;
+    top: 1px;
+    
+    color:white;
+    letter-spacing:2px;
+}
+.san h3{
+    position:relative;
+    display: block;
+    top:38px;
+    right:80px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+
+.san1 h3{
+    position:relative;
+    display: block;
+    top:40px;
+    right:120px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+
+
+.san2 h3{
+    position:relative;
+    display: block;
+    top:40px;
+    right:130px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+
+.san3 h3{
+    position:relative;
+    display: block;
+    top:38px;
+    right:80px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+.san4 h3{
+    position:relative;
+    display: block;
+    top:38px;
+    right:100px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+
+.san5 h3{
+    position:relative;
+    display: block;
+    top: 38px;
+    right:150px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+.san6 h3{
+    position:relative;
+    display: block;
+    top: 20px;
+    right: 80px;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+
+.inputBox{
+    position:relative;
+    margin-bottom:20px;
+}
+.inputBox input{
+ 
+    width:100%;
+    padding:16px 16px;
+    border-radius:10px;
+    border:2px solid deepskyblue;
+    font-size:15px;
+    outline:none;
+    transition:0.3s;
+}
+
+.inputBox label{
+    position:absolute;
+    left:14px;
+    top:50%;
+    transform:translateY(-15%);
+    color:gray;
+    font-size:14px;
+    background:white;
+    padding:0 6px;
+    transition:0.3s;
+    pointer-events:none;
+    border: none;
+    outline: none;
+    
+    
+}
+
+.inputBox input:focus + label,
+.inputBox input:not(:placeholder-shown) + label{
+    top:-8px;
+    font-size:11px;
+    color:black;
+    outline:none;
+    border: none;
+}
+
+.inputBox input:focus{
+    border-color:deepskyblue;
+    box-shadow:0 0 10px deepskyblue;
+    box-shadow:0 5px 10px deepskyblue;
+    background: white;
+    transform:translateY(-2px);
+}
+
+
+.san h3:hover{
+    color: aqua;
+}
+.san1 h3:hover{
+    color: aqua;
+}
+.san2 h3:hover{
+    color: aqua;
+}
+.san3 h3:hover{
+    color: aqua;
+}
+.san4 h3:hover{
+    color: aqua;
+}
+.san5 h3:hover{
+    color: aqua;
+}
+
+.san6 h3:hover{
+    color: aqua;
+}
+
+#lead h1:hover{
+    color:violet;
+}
+
+.san7 button{
+     padding: 10px 30px;
+    font-size:20px;
+    font-weight:700;
+    border-radius: 20px;
+    border: none;
+    cursor:pointer;
+    background: linear-gradient(135deg,red,white);
+    color:black;
+    box-shadow: 0 8px 12px red ;
+    transition: 0.3s ease;
+}
+.san7 button:hover{
+    color:aqua;
+    transform:translateY(5px) scale(1.00);
+    box-shadow:0 5px 12px red;
+}
